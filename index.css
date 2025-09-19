@@ -1,0 +1,119 @@
+
+body{
+    font-family: Verdana;
+font-size: 18px;
+justify-content: center;    
+align-items: center;
+text-align: center;
+justify-content: center;
+padding: 20px;
+
+background-color: rgb(155, 155, 155);
+}
+ul a{
+    color: white;
+    text-decoration: none;
+
+    }
+    li{
+        display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 10px;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-left: 2px solid rgb(39, 46, 39);
+    border-right: 1px solid rgb(39, 46, 39);
+    background-color: rgb(39, 46, 39);
+
+    }
+    li:hover{
+    background-color: rgb(151, 151, 151);
+    border-style: none;
+    font-size: 24px;
+    }
+    h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    }
+    table{
+        display: flex;
+        text-align: center;
+justify-content: center;
+        }
+        td, th{
+        padding: 10px 5px;
+        align-items: center;
+
+        }
+
+        input[type="text"], input[type="email"], textarea, select, button{
+            display: block;
+            margin: 15px 0px;
+            width: 400px;
+            align-items: center;
+            text-align: center;
+        justify-content: center;
+            box-sizing: border-box;
+            border-radius: 4px;
+            box-shadow: inset 2px 2px 5px grey;
+            }
+            textarea{
+            height: 200px;
+            background-color: rgb(194, 200, 202);
+            padding: 5px 4px;
+            
+            }
+            button:active{
+            background-color: rgb(30, 214, 30);
+            color: rgb(255, 255, 255);
+            border-radius: 8px;
+            box-shadow: inset 2px 2px 5px rgb(121, 121, 121);
+            }
+
+            .container {
+                background-color: #ffffff; 
+                text-align: center;
+                text-align: center;
+            }
+            .container2 {
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                margin: 0 auto;
+                margin: 0 auto !important;
+                /* Adjust the width in the next 2 lines as your site needs */
+                max-width: 500px !important;
+                width: 500px !important;
+            }
+             
+          
+             label,input {
+    
+                width: 150px;
+                text-align: center;
+                margin-bottom: 10px;
+                align-items: center;
+                justify-content: center;
+               }
+               
+               label {
+                text-align: right;
+                width: 75px;
+                padding-right: 20px;
+                align-items: center;
+                justify-content: center;
+               }
+               
+               title{
+                margin-left: auto;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                margin-right: auto;
+            }
